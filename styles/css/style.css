@@ -1,0 +1,17 @@
+h1, h2, h3, p {
+  color: black;
+  background: rgba(207, 166, 236, 0.829);
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: 400;
+  font-family: arial;
+}
+h1:hover, h2:hover, h3:hover, p:hover {
+  color: #fff;
+  background: rgba(0, 27, 23, 0.822);
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+@import "variable";
+
+@mixin textstyle($color,$bgcolor,$boderru,$padding){
+    color: $color;
+    background: $bgcolor;
+    border-radius: $boderru;
+    padding: $padding;
+
+}
+@mixin fontstyle($weight,$family){
+    
+    font-weight: $weight;
+    font-family: $family;
+}
+@mixin hovereffect($times){
+    &:hover{
+        @include textstyle($colorhover,$bghover,$bordhover,$paddhover);
+        transition: all $times ease-in;    
+    }
+}

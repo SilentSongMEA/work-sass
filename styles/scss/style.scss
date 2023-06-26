@@ -1,0 +1,8 @@
+@import "variable";
+@import "mixin";
+
+h1,h2,h3,p{
+   @include textstyle($color,$bgcolor,10px,5px 15px);
+   @include fontstyle(400,arial);
+   @include hovereffect(.2s);
+}
