@@ -1,8 +1,37 @@
 @import "variable";
 @import "mixin";
 
-h1,h2,h3,p{
-   @include textstyle($color,$bgcolor,10px,5px 15px);
-   @include fontstyle(400,arial);
-   @include hovereffect(.2s);
+*{
+   margin:(10px * 2);
+   padding: 20px;
+}
+
+h1{
+   @include textstyle($color,$bgcolor,10px,5px 10px);
+   @include fontstyle(800);
+   @include hoverEffect;
+   @include query(400){
+      background: #ff1d4edd;
+      font-size: 
+      1.5rem;
+   }
+   
+}
+h2{
+   @include textstyle($color,$bgcolor,10px,5px 10px);
+   @include fontstyle(600);
+   @include hoverEffect;
+
+}
+p{
+   @include textstyle($color,$bgcolor,10px,5px 10px);
+   @include fontstyle(400);
+   @include hoverEffect;
+   @include query(800){
+      background: #31ffa9dd;
+   }
+
+}
+h3{
+   @extend h2
 }
