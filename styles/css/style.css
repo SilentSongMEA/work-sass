@@ -130,6 +130,27 @@ h2:hover, #vih3id:hover {
   color: antiquewhite;
 }
 
+.each-1 {
+  color: antiquewhite;
+  background: rgb(32, 3, 49);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.each-2 {
+  color: antiquewhite;
+  background: rgb(0, 0, 58);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.each-3 {
+  color: antiquewhite;
+  background: rgb(0, 44, 29);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
 p {
   color: #f9fafa;
   background: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
