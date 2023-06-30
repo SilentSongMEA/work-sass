@@ -1,10 +1,12 @@
 @import "variable";
 
+
 @mixin textstyle($mcolor,$mbgcolor,$mbord,$mpadd){
     color:$mcolor;
     background: $mbgcolor;
     border-radius: $mbord;
     padding: $mpadd;
+   
 }
 
 @mixin fontstyle($weight){
@@ -12,23 +14,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 @mixin hoverEffect{
     &:hover{  
-        @include textstyle($hovcolor,$bghovcolor,15px,15px 20px);
-    transition: all .2s ease-in;
+        @include textstyle($hovcolor,$bghovcolor,30px,15px 25px);
+    transition: all .5s ease-in;
+    }
+}
+
+@mixin hoverEffect1{
+    &:hover{  
+        @include textstyle($hovcolor,$bghovcolor,50px,25px 45px);
+    transition: all .4s ease-in;
+
     }
 }
 
 @mixin query($width){
-    @if($width==400){
-            @media (max-width:400px) {
+    @if($width==800){
+            @media (max-width:800px) {
  @content;
     }
     }
  
-    @else if($width==800){
-        @media (max-width:800px) {
+    @else if($width==900){
+        @media (max-width:900px) {
             @content;
         }
     }
  }
+ 

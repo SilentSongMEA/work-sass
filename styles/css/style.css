@@ -5,7 +5,7 @@
 
 h1 {
   color: #f9fafa;
-  background: #8317ff;
+  background: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
   border-radius: 10px;
   padding: 5px 10px;
   font-weight: 800;
@@ -13,37 +13,108 @@ h1 {
 }
 h1:hover {
   color: #ddddff;
-  background: rgb(17, 0, 255);
-  border-radius: 15px;
-  padding: 15px 20px;
-  transition: all 0.2s ease-in;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 30px;
+  padding: 15px 25px;
+  transition: all 0.5s ease-in;
 }
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   h1 {
-    background: rgba(255, 29, 78, 0.8666666667);
+    background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+    color: #101220;
     font-size: 1.5rem;
   }
 }
 
-h2, h3 {
+h2, #vih3id {
   color: #f9fafa;
-  background: #8317ff;
+  background: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
   border-radius: 10px;
   padding: 5px 10px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
-h2:hover, h3:hover {
+h2:hover, #vih3id:hover {
   color: #ddddff;
-  background: rgb(17, 0, 255);
-  border-radius: 15px;
-  padding: 15px 20px;
-  transition: all 0.2s ease-in;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 30px;
+  padding: 15px 25px;
+  transition: all 0.5s ease-in;
+}
+
+.continar-1 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 20px;
+  padding: 20px;
+  margin: 0;
+}
+.continar-1:hover {
+  color: #ddddff;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 50px;
+  padding: 25px 45px;
+  transition: all 0.4s ease-in;
+}
+
+.continar-2 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 40px;
+  padding: 20px;
+  margin: 0;
+}
+.continar-2:hover {
+  color: #ddddff;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 50px;
+  padding: 25px 45px;
+  transition: all 0.4s ease-in;
+}
+
+.continar-3 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 60px;
+  padding: 20px;
+  margin: 0;
+}
+.continar-3:hover {
+  color: #ddddff;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 50px;
+  padding: 25px 45px;
+  transition: all 0.4s ease-in;
+}
+
+.continar-4 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 80px;
+  padding: 20px;
+  margin: 0;
+}
+.continar-4:hover {
+  color: #ddddff;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 50px;
+  padding: 25px 45px;
+  transition: all 0.4s ease-in;
+}
+
+.continar-5 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 100px;
+  padding: 20px;
+  margin: 0;
+}
+.continar-5:hover {
+  color: #ddddff;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 50px;
+  padding: 25px 45px;
+  transition: all 0.4s ease-in;
 }
 
 p {
   color: #f9fafa;
-  background: #8317ff;
+  background: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
   border-radius: 10px;
   padding: 5px 10px;
   font-weight: 400;
@@ -51,14 +122,15 @@ p {
 }
 p:hover {
   color: #ddddff;
-  background: rgb(17, 0, 255);
-  border-radius: 15px;
-  padding: 15px 20px;
-  transition: all 0.2s ease-in;
+  background: linear-gradient(135deg, rgb(29, 32, 35) 0%, rgb(34, 66, 99) 33%, rgb(30, 44, 124) 100%);
+  border-radius: 30px;
+  padding: 15px 25px;
+  transition: all 0.5s ease-in;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   p {
-    background: rgba(49, 255, 169, 0.8666666667);
+    background: linear-gradient(90deg, rgb(252, 185, 252) 0%, rgb(148, 233, 196) 100%);
+    color: #101220;
   }
 }
 

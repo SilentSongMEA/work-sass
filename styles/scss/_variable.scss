@@ -1,18 +1,7 @@
 $color:#f9fafa;
-$bgcolor:#8317ff;
+$bgcolor: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
 
 $hovcolor:#ddddff;
-$bghovcolor:rgb(17, 0, 255);
+$bghovcolor:linear-gradient(135deg, rgba(29,32,35,1) 0%, rgba(34,66,99,1) 33%, rgba(30,44,124,1) 100%);
 
 
-// @keyframes anime {
-//     10%{
-//         width: calc(100% - 50px);
-//     }
-//     50%{
-//         width: calc(100% - 80px);
-//     }
-//     100%{
-//         width: auto;
-//     }
-// }

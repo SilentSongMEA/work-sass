@@ -10,8 +10,9 @@ h1{
    @include textstyle($color,$bgcolor,10px,5px 10px);
    @include fontstyle(800);
    @include hoverEffect;
-   @include query(400){
-      background: #ff1d4edd;
+   @include query(800){
+      background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      color: #101220;
       font-size: 
       1.5rem;
    }
@@ -23,15 +24,28 @@ h2{
    @include hoverEffect;
 
 }
+@for $item from 1 through 5 {
+
+   .continar-#{$item} {
+    background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+      height: 20px * $item;
+     padding: 20px;
+     margin: 0;
+     @include hoverEffect1;
+   } 
+}
+
 p{
    @include textstyle($color,$bgcolor,10px,5px 10px);
    @include fontstyle(400);
    @include hoverEffect;
-   @include query(800){
-      background: #31ffa9dd;
+   @include query(900){
+      background: linear-gradient(90deg, rgba(252,185,252,1) 0%, rgba(148,233,196,1) 100%);
+color:#101220;
    }
 
 }
-h3{
-   @extend h2
+#vih3id{
+   @extend h2 ;
 }
+
