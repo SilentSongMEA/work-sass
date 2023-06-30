@@ -112,6 +112,24 @@ h2:hover, #vih3id:hover {
   transition: all 0.4s ease-in;
 }
 
+.con-3 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 30px;
+  color: antiquewhite;
+}
+
+.con-2 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 20px;
+  color: antiquewhite;
+}
+
+.con-1 {
+  background: linear-gradient(135deg, #1d1e23 0%, #392263 33%, #451e7c 100%);
+  height: 10px;
+  color: antiquewhite;
+}
+
 p {
   color: #f9fafa;
   background: linear-gradient(135deg, #323853 0%, #6e37d3 33%, #451e7c 100%);
