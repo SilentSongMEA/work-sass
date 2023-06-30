@@ -24,6 +24,7 @@ h2{
    @include hoverEffect;
 
 }
+
 @for $item from 1 through 5 {
 
    .continar-#{$item} {
